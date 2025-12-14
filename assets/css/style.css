@@ -2,9 +2,15 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: black;
   width: 100%;
   overflow-x: hidden;
+  position: relative;
+  background-color: #000000;
+}
+
+html{
+  width: 100%;
+  height: 100%;
 }
 
 :root {
@@ -107,14 +113,14 @@ input[type="checkbox"]:checked ~ #menu::before {
 
 #menu {
   max-height: 100vh;
-  width: 100vw;
+  width: 100% ;
 
   z-index: 3;
   position: fixed;
 
   /*   visibility: hidden; */
   /*   opacity:0; */
-  transform: translateY(100vh);
+  transform: translateY(135vh);
 
   /*   ONE SLIDER */
   /*   background: var(--color-accent-1); */
@@ -961,6 +967,24 @@ font-weight: 300;
 }
 
 
+.MobileContent{
+  width: 100% !important;
+  height: fit-content !important;
+  padding-top: 1.4rem !important;
+  padding-bottom: 1.4rem !important;
+  /* border: 4px solid blue !important; */
+  overflow: hidden;
+}
+.MobileContent_2{
+  width: 100% !important;
+  height: fit-content !important;
+  padding-top: 12rem !important;
+  padding-bottom: 1.4rem !important;
+  /* border: 4px solid blue !important; */
+  overflow: hidden;
+}
+
+
 
 @media (max-width: 624px){
 
@@ -1006,10 +1030,48 @@ font-weight: 300;
   gap: 1rem !important;
 }
 .lastFlik, .lastFlik_2{
+  padding-top: 0px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  max-width: 100% !important;
+}
+
+.newHeroWrapper{
+  margin-top: 2rem;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 2rem !important;
+}
+.newHeroWrapper button{
+  font-size:medium !important;
+  width: 80% !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  white-space: nowrap !important;
+}
+.hero-cli {
+  margin-top: 8rem;
+}
+.holder{
+  padding-bottom: 2rem !important;
+}
+.gapAdjust{
+  gap: 1rem !important;
+}
+
+.newHeadingBigger{
+  font-size: 52px !important;
+}
+.newParaStyler{
+  font-size: 16px !important;
+  color: #dadadada;
+}
+.newFooterPara{
+  font-size: 1.5rem !important;
 }
 
 }
