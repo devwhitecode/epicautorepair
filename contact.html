@@ -28,41 +28,57 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body>
     <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" id="menu-button"><span></span></label>
+    <label for="menu-toggle" id="menu-button">
+       <img src="./assets/images/hamburger.svg" alt="" />
+    </label>
     <nav id="menu" class="row">
       <div class="col-lg-5 d-lg-flex d-none">
-        <img src="./assets/images/menubg.png" alt="" class="img-fluid" />
+        <img src="./assets/images/grage.svg" alt="" class="img-fluid" />
       </div>
       <div
         class="col-lg-7 col-12 p-5 d-flex flex-column align-items-baseline justify-content-between"
       >
-        <img src="./assets/images/logo.png" alt="" class="img-fluid logo-img" />
+        <img src="./assets/images/logo.png" alt=""       class="img-fluid logo-img NewWdith" />
 
         <ul class="pb-5">
-          <li><a class="menu-item" href="./index.html">About Us</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./index.html">About Us</a></li>
           <li>
-            <a class="menu-item" href="./service.html">Auto repair</a>
+            <a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./service.html">Auto repair</a>
           </li>
-          <li><a class="menu-item" href="./tesla.html">Tune-Ups</a></li>
-          <li><a class="menu-item" href="./tire-service.html">Tire Service</a></li>
-          <li><a class="menu-item" href="./maintenance.html">Maintenance</a></li>
-          <li><a class="menu-item active" href="./contact.html">More</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tesla.html">Tune-Ups</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tire-service.html">Tire Service</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./maintenance.html">Maintenance</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item active" href="./contact.html">More</a></li>
         </ul>
       </div>
     </nav>
 
     <div class="navbar-hero">
       <div class="row position-fixed w-100 p-5 pb-0">
-        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100">
+        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100 centered">
           <img
             src="./assets/images/logo.png"
             alt=""
-            class="img-fluid logo-img"
+                  class="img-fluid logo-img NewWdith"
           />
-          <div class="d-flex align-items-center pe-lg-5 pe-2">
+          <div class="ScheduleBtn d-flex align-items-center pe-lg-5 pe-2">
             <button class="schedule-btn">SCHEDULE AN APPOINTMENT</button>
           </div>
         </div>
@@ -74,14 +90,16 @@
         <div class="row">
           <div class="col-lg-5 offset-lg-1">
             <h2 class="my-4">
-              Call us now and schedule your appointment.
+              Call us now and schedule your <span>appointment</span>.
             </h2>
-            <p>
+            <p class="newParaSize"
+            style="color: #dadadada;">
               Bring it over to the best car maintenance station in Morgan Hill
               and we will minimize the risk of mechanical failure and costly
               repairs.
             </p>
-            <p>
+           <p class="newParaSize"
+            style="color: #dadadada;">
               Preventive maintenance allows you the peace of mind that your
               vehicle will keep running dependably, and we inform you about the
               necessary parts, maintenance, and services.
@@ -117,7 +135,7 @@
               alt=""
               class="img-fluid my-5 w-75"
             />
-            <div class="col-12 d-flex gap-4">
+            <div class="col-12 d-flex gap-4 starter">
               <button class="white-sqr-btn d-flex align-items-center gap-2">
                 Call Us Now
                 <svg
@@ -203,9 +221,7 @@
                 </a>
               </div>
             </div>
-            <p class="text-center mt-5 text-white">
-              Email: info@epicautorepairs.com
-            </p>
+          
           </div>
           <div
             class="col-lg-6 px-lg-5 d-flex align-items-center justify-content-center"
@@ -216,19 +232,19 @@
               </h3>
               <div class="d-flex flex-column my-4">
                 <label for="">Name</label>
-                <input type="text" />
+                <input type="text"  class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Phone</label>
-                <input type="text" />
+                <input type="text" class="inputCustom" />
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Email</label>
-                <input type="email" />
+                <input type="email" class="inputCustom" />
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Date/Time</label>
-                <input type="text" />
+                <input type="text" class="inputCustom" />
               </div>
               <div class="d-flex flex-column my-4">
                 <p class="mb-2">Services</p>
@@ -265,11 +281,11 @@
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Message</label>
-                <textarea name="" rows="6" id=""></textarea>
+                <textarea name="" rows="6" id="" class="inputCustom"></textarea>
               </div>
               <div class="d-flex align-items-center justify-content-center">
                 <button class="schedule-btn filled-red mx-auto">
-                  Submit
+                  SCHEDULE AN APPOINTMENT
                 </button>
               </div>
             </div>
@@ -278,24 +294,23 @@
       </div>
       <div class="container map_foot">
         <div class="row">
-          <img src="./assets/images/map.png" alt="" class="img-fluid" />
+          <img src="./assets/images/map.png" alt="" class="img-fluid newHighMap" />
         </div>
       </div>
     </footer>
 
-    <section class="privacy">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 d-flex justify-content-between mx-auto">
+       <div class="lastFlik">
             <p>Privacy Policy | Your Privacy Choices</p>
-            <div class="d-flex gap-3">
-              <p>© 2025 Epic Auto Repair. All rights Reserved.</p>
-              <p class="special">Web Design</p>
-              <p>By Latin Branding</p>
+            <div class="lastFlik_2"
+            style="gap: 2rem;">
+             <p>© 2025 ELEPHIN CLEANERS . All rights Reserved.</p>
+             <p style="color: #FF0C0C; font-weight: 600;">Web Design</p>
+             <p style="font-weight: bold;">BRANDED STRONG</p>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

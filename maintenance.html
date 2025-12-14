@@ -28,41 +28,57 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body>
     <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" id="menu-button"><span></span></label>
+    <label for="menu-toggle" id="menu-button">
+       <img src="./assets/images/hamburger.svg" alt="" />
+    </label>
     <nav id="menu" class="row">
       <div class="col-lg-5 d-lg-flex d-none">
-        <img src="./assets/images/menubg.png" alt="" class="img-fluid" />
+        <img src="./assets/images/grage.svg" alt="" class="img-fluid" />
       </div>
       <div
         class="col-lg-7 col-12 p-5 d-flex flex-column align-items-baseline justify-content-between"
       >
-        <img src="./assets/images/logo.png" alt="" class="img-fluid logo-img" />
+        <img src="./assets/images/logo.png" alt=""       class="img-fluid logo-img NewWdith" />
 
         <ul class="pb-5">
-          <li><a class="menu-item" href="./index.html">About Us</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./index.html">About Us</a></li>
           <li>
-            <a class="menu-item" href="./service.html">Auto repair</a>
+            <a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./service.html">Auto repair</a>
           </li>
-          <li><a class="menu-item" href="./tesla.html">Tune-Ups</a></li>
-          <li><a class="menu-item" href="./tire-service.html">Tire Service</a></li>
-          <li><a class="menu-item active" href="./maintenance.html">Maintenance</a></li>
-          <li><a class="menu-item" href="./contact.html">More</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tesla.html">Tune-Ups</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tire-service.html">Tire Service</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item active" href="./maintenance.html">Maintenance</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./contact.html">More</a></li>
         </ul>
       </div>
     </nav>
 
     <div class="navbar-hero">
       <div class="row position-fixed w-100 p-5 pb-0">
-        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100">
+        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100 centered">
           <img
             src="./assets/images/logo.png"
             alt=""
-            class="img-fluid logo-img"
+                  class="img-fluid logo-img NewWdith"
           />
-          <div class="d-flex align-items-center pe-lg-5 pe-2">
+          <div class="ScheduleBtn d-flex align-items-center pe-lg-5 pe-2">
             <button class="schedule-btn">SCHEDULE AN APPOINTMENT</button>
           </div>
         </div>
@@ -72,14 +88,14 @@
     <section class="service_hero">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 offset-lg-1">
+          <div class="col-lg-5 offset-lg-1" data-aos="fade-up">
             <h3>MAINTENANCE</h3>
-            <p class="my-4">
+            <p class="my-4 newParaSize">
               Preventive maintenance is essential for keeping a dependable,
               well-maintained vehicle. The trust we build with our customers
               starts with honest inspections and consistent service.
             </p>
-            <p class="my-4">
+            <p class="my-4 newParaSize">
               Routine maintenance minimizes the risk of mechanical failures and
               costly repairs, and we keep you informed about what actually
               needs work so your car stays on the road with confidence.
@@ -96,7 +112,7 @@
               class="img-fluid my-5"
             />
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left">
             <img src="./assets/images/maintenance-hero.png" alt="Epic Auto Repair hero" class="img-fluid" />
           </div>
         </div>
@@ -106,30 +122,30 @@
     <section class="service_check">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right">
             <img src="./assets/images/maintenance-icon.png" alt="Maintenance service icon" class="img-fluid" />
           </div>
-          <div class="col-lg-5">
-            <h4 class="mb-4">Key Maintenance Checks</h4>
-            <p>
+          <div class="col-lg-5" data-aos="fade-up">
+            <h4 class="mb-4 newHeadSize">Key Maintenance Checks</h4>
+            <p class="newParaSize">
               We focus on the preventative work that gives you peace of mind —
               diagnosing “Check Engine” lights, examining belts and hoses, and
               checking every fluid level so your car runs at its best.
             </p>
-            <p>
+            <p class="newParaSize">
               The more we catch during routine maintenance, the fewer surprises
               you face later. Honest priorities keep costs down and reliability
               high.
             </p>
             <div class="service-list my-4">
-              <p class="mb-2">Diagnose “Check Engine” Lights</p>
-              <p class="mb-2">Examine Belts and Hoses in Engine Bay</p>
-              <p class="mb-2">Change Your Oil and Oil Filter</p>
-              <p class="mb-2">Prevent Brake Issues</p>
-              <p class="mb-2">Check Your Tires Regularly</p>
-              <p class="mb-2">Remove Battery Corrosion</p>
-              <p class="mb-2">Rotate Your Tires to Prevent Uneven Wear</p>
-              <p class="mb-0">&amp; More!</p>
+              <p class="mb-2 newParaSize">Diagnose “Check Engine” Lights</p>
+              <p class="mb-2 newParaSize">Examine Belts and Hoses in Engine Bay</p>
+              <p class="mb-2 newParaSize">Change Your Oil and Oil Filter</p>
+              <p class="mb-2 newParaSize">Prevent Brake Issues</p>
+              <p class="mb-2 newParaSize">Check Your Tires Regularly</p>
+              <p class="mb-2 newParaSize">Remove Battery Corrosion</p>
+              <p class="mb-2 newParaSize">Rotate Your Tires to Prevent Uneven Wear</p>
+              <p class="mb-0 newParaSize">&amp; More!</p>
             </div>
             <button class="schedule-btn filled-red mx-auto mt-4">
               SCHEDULE AN APPOINTMENT
@@ -139,7 +155,7 @@
       </div>
     </section>
 
-    <section class="d-none d-lg-flex py-5 my-5">
+    <section class="d-none d-lg-flex py-5 my-5" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-12"><img src="./assets/images/maintenance-hero.png" alt="Service highlight" class="img-fluid"></div>
@@ -150,22 +166,22 @@
     <section class="prevention-highlight py-5">
       <div class="container">
         <div class="row align-items-center gy-5 gy-lg-0">
-          <div class="col-lg-6 order-lg-2">
+          <div class="col-lg-6 order-lg-2" data-aos="fade-left">
             <img
               src="./assets/images/maintenance-prevent.png"
               alt="Maintenance service crew"
               class="img-fluid rounded"
             />
           </div>
-          <div class="col-lg-6 order-lg-1">
-            <h3 class="mb-4">Preventive maintenance minimizes breakdowns</h3>
-            <p>
+          <div class="col-lg-6 order-lg-1" data-aos="fade-up">
+            <h3 class="mb-4 newHeadSize">Preventive maintenance minimizes breakdowns</h3>
+            <p class="newParaSize">
               Preventive maintenance allows you the peace of mind of knowing
               your car is dependable. Regular inspections keep every system
               running smoothly and help us spot the repairs that actually need
               attention.
             </p>
-            <p>
+            <p class="newParaSize">
               Follow the checklist of diagnostics, belts, fluids, brakes, tires,
               and battery care to extend your vehicle’s life and avoid costly
               surprises.
@@ -175,10 +191,10 @@
       </div>
     </section>
 
-    <section class="map py-5">
+    <section class="map py-5" data-aos="fade-up">
       <div class="container">
         <div class="row">
-          <img src="./assets/images/map.png" alt="" class="img-fluid" />
+          <img src="./assets/images/map.png" alt="" class="img-fluid newHighMap" />
         </div>
       </div>
     </section>
@@ -188,7 +204,7 @@
         <div class="row justify-content-center">
           <div
             class="col-lg-11 mx-auto d-flex justify-content-center align-items-start flex-column mb-lg-2"
-          >
+           data-aos="fade-up">
             <h3>What Our Clients Are Saying</h3>
             <div class="rev-star d-flex gap-2 align-items-center">
               <i class="fa-solid fa-star"></i>
@@ -200,7 +216,7 @@
             </div>
           </div>
           <div class="row col-lg-11 mx-auto d-flex justify-content-around my-5">
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-up">
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -232,7 +248,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-down">
               <div
                 class="rev-cards bg-rev-card p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -276,7 +292,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-up">
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -320,7 +336,7 @@
             <div class="row">
               <div
                 class="col-lg-6 d-flex flex-column align-items-center justify-content-center px-lg-4"
-              >
+               data-aos="fade-up" >
                 <h3 class="mb-5">
                   Come to our Auto Repair Shop so we can assess how to better
                   take care of your care and provide the maintenance it needs.
@@ -328,7 +344,7 @@
 
                 <button class="req-btn">Request a FREE Estimate</button>
               </div>
-              <div class="col-lg-6 position-relative">
+              <div class="col-lg-6 position-relative" data-aos="fade-left">
                 <img
                   src="./assets/images/sidecar.png"
                   alt=""
@@ -341,19 +357,22 @@
       </div>
     </section>
 
-    <footer>
+      <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 offset-lg-1">
+          <div class="col-lg-5 offset-lg-1"  data-aos="fade-up">
             <img
               src="./assets/images/logo.png"
               alt=""
               class="img-fluid logo-img mb-5"
             />
             <h2 class="my-4">
-              We pride ourselves on informing our customers on the necessary<br />
-              <span>parts, maintenance and service</span> that keep their vehicles<br />
-              reliable.
+              We pride ourselves on the importance of informing our customers on
+              the necessary parts, maintenance and service that will help keep
+              them in a well maintained car or truck.<br />
+              Bring it over to the best car maintenance station in Morgan Hill
+              and we will minimize the risk of mechanical failure and costly
+              repairs.
             </h2>
 
             <div class="address mt-5">
@@ -386,7 +405,7 @@
               alt=""
               class="img-fluid my-5 w-75"
             />
-            <div class="col-12 d-flex gap-4">
+            <div class="col-12 d-flex gap-4 starter">
               <button class="white-sqr-btn d-flex align-items-center gap-2">
                 Call Us Now
                 <svg
@@ -472,42 +491,53 @@
                 </a>
               </div>
             </div>
-            <p class="text-center mt-5 text-white">
-              Email: info@epicautorepairs.com
-            </p>
+         
           </div>
           <div
             class="col-lg-6 px-lg-5 d-flex align-items-center justify-content-center"
-          >
+               data-aos="fade-left">
             <div class="form-div w-100">
               <h3 class="text-center">
                 Get a <span>FREE<br />Estimate Today!</span>
               </h3>
               <div class="d-flex flex-column my-4">
                 <label for="">Name</label>
-                <input type="text" />
+                <input type="text"
+                class="inputCustom"
+                />
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Phone</label>
-                <input type="text" />
+                <input type="text"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Email</label>
-                <input type="email" />
+                <input type="email"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
-                <label for="">Message</label>
-                <textarea name="" rows="6" id=""></textarea>
+                <label for="" >Message</label>
+                <textarea name="" rows="6" id=""   class="inputCustom"></textarea>
               </div>
               <div class="d-flex align-items-center justify-content-center">
-                <button class="schedule-btn filled-red mx-auto">
-                  Submit
-                </button>
+                <button class="schedule-btn filled-red mx-auto">SCHEDULE AN APPOINTMENT</button>
               </div>
             </div>
           </div>
         </div>
+        <div class="lastFlik">
+            <p>Privacy Policy | Your Privacy Choices</p>
+            <div class="lastFlik_2"
+            style="gap: 2rem;">
+             <p>© 2025 ELEPHIN CLEANERS . All rights Reserved.</p>
+             <p style="color: #FF0C0C; font-weight: 600;">Web Design</p>
+             <p style="font-weight: bold;">BRANDED STRONG</p>
+            </div>
+          </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

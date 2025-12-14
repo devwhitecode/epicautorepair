@@ -28,44 +28,61 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body 
-  style="width: 100%;
-  overflow-x: hidden;"
-  >
+  <body>
     <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" id="menu-button"><span></span></label>
+    <label for="menu-toggle" id="menu-button">
+      <img src="./assets/images/hamburger.svg" alt="" />
+    </label>
     <nav id="menu" class="row">
       <div class="col-lg-5 d-lg-flex d-none">
-        <img src="./assets/images/menubg.png" alt="" class="img-fluid" />
+        <img src="./assets/images/grage.svg" alt="" class="img-fluid"
+        style="object-fit: cover; object-position: left;" />
       </div>
       <div
         class="col-lg-7 col-12 p-5 d-flex flex-column align-items-baseline justify-content-between"
-     
       >
-        <img src="./assets/images/logo.png" alt="" class="img-fluid logo-img" />
+        <img src="./assets/images/logo.png" alt=""       class="img-fluid logo-img NewWdith" />
 
         <ul class="pb-5">
-          <li><a class="menu-item active" href="./index.html">About Us</a></li>
-          <li><a class="menu-item" href="./service.html">Auto repair</a></li>
-          <li><a class="menu-item" href="./tesla.html">Tune-Ups</a></li>
-          <li><a class="menu-item" href="./tire-service.html">Tire Service</a></li>
-          <li><a class="menu-item" href="./maintenance.html">Maintenance</a></li>
-          <li><a class="menu-item" href="./contact.html">More</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item active" href="./index.html">About Us</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./service.html">Auto repair</a></li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tesla.html">Tune-Ups</a></li>
+          <li>
+            <a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tire-service.html">Tire Service</a>
+          </li>
+          <li>
+            <a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./maintenance.html">Maintenance</a>
+          </li>
+          <li><a 
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./contact.html">More</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="navbar-hero"   data-aos="fade-down">
-      <div class="row position-fixed w-100 p-5 pb-0">
-        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100">
+    <div class="navbar-hero" data-aos="fade-down">
+      <div class="centered row position-fixed w-100 p-5 pb-0">
+        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100 centered">
           <img
             src="./assets/images/logo.png"
             alt=""
-            class="img-fluid logo-img"
+            class="img-fluid logo-img NewWdith"
           />
-          <div class="d-flex align-items-center pe-lg-5 pe-2">
+          <div
+            class="ScheduleBtn d-flex align-items-center pe-lg-5 pe-2"
+          >
             <button class="schedule-btn">SCHEDULE AN APPOINTMENT</button>
           </div>
         </div>
@@ -73,8 +90,7 @@
     </div>
     <section class="hero">
       <div class="container">
-        <div class="row text-div"
-          data-aos="fade-up">
+        <div class="row text-div" data-aos="fade-up">
           <h1>Quality <span>Auto Repair</span> Shop</h1>
           <div
             class="btn-span d-flex align-items-center justify-content-center gap-5"
@@ -84,12 +100,10 @@
           </div>
           <div class="hero-cli row">
             <div class="col-lg-6 row">
-              <div class="col-6"
-              data-aos="fade-right">
+              <div class="col-6" data-aos="fade-right">
                 <p>At Epic Auto Repair, we treat your car like our own.</p>
               </div>
-              <div class="col-6"
-              data-aos="fade-right">
+              <div class="col-6" data-aos="fade-right">
                 <p>
                   As Morgan Hill’s trusted full-service shop, we deliver honest
                   maintenance, complete repairs, and the peace of mind that
@@ -99,8 +113,8 @@
             </div>
             <div
               class="col-lg-6 hero-client gap-3 d-flex align-items-center justify-content-center"
-            data-aos="fade-left"
-              >
+              data-aos="fade-left"
+            >
               <img src="./assets/images/clients.png" alt="" class="img-fluid" />
               4.8
               <div class="clientline">
@@ -132,7 +146,8 @@
         <div class="row ab-first align-items-center justify-content-center">
           <div
             class="col-lg-6 py-4 d-flex align-items-center justify-content-center"
-           data-aos="fade-right">
+            data-aos="fade-right"
+          >
             <div>
               <img src="./assets/images/car1.png" alt="" class="img-fluid" />
             </div>
@@ -140,19 +155,18 @@
               <img src="./assets/images/car2.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <div class="col-lg-5 px-lg-5"
-          data-aos="fade-left">
-            <h3 class="mb-5">
+          <div class="col-lg-5 px-lg-5" data-aos="fade-left">
+            <h3 class="mb-5 newHeadSize">
               We Provide Not Just Good,<br />But
               <span>Epic Auto Repair Services</span>
             </h3>
-            <p>
+            <p class="newParaSize">
               Epic Auto Repair is a full-service auto repair that offers a
               variety of automotive services to assist you keep your vehicle
               performing at its best. We are experts in our field and matched by
               no other Auto Repair Shop.
             </p>
-            <p>
+            <p class="newParaSize">
               Operating in Morgan Hill, CA and surrounding areas, we’ve gotten
               to know what customers like in their cars and we know how to solve
               every issue. We all know you have to give constant maintenance to
@@ -169,8 +183,7 @@
     <div class="offersec">
       <div class="container">
         <div class="row">
-          <div class="col-12"
-          data-aos="fade-up">
+          <div class="col-12" data-aos="fade-up">
             <div class="d-flex justify-content-center">
               <button class="btn-app">AUTO SERVICE</button>
             </div>
@@ -184,12 +197,11 @@
     <section class="stop">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 offset-lg-1"
-          data-aos="fade-right">
-            <h3 class="py-5">
+          <div class="col-lg-4 offset-lg-1" data-aos="fade-right">
+            <h3 class="py-5 newHeadSize">
               Your <span>One-Stop<br />Auto Shop</span>
             </h3>
-            <p>
+            <p class="newParaSize">
               We do it all at Epic Auto Repair. If you’re looking for an honest
               mechanic shop that performs quality work, come to our shop and let
               us look at your vehicle. We’ll give you an honest evaluation of
@@ -197,7 +209,7 @@
               Our main goal is to save you money while keeping your vehicle as
               reliable as possible.
             </p>
-            <p>
+            <p class="newParaSize">
               Many drivers or car owners do not understand the importance of
               preventative maintenance. Most people assume that if the car isn’t
               exhibiting some kind of failure, it’s working just fine. But
@@ -208,8 +220,7 @@
               SCHEDULE AN APPOINTMENT
             </button>
           </div>
-          <div class="col-lg-6 pt-5 pt-lg-0"
-          data-aos="fade-left">
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
             <img src="./assets/images/abt2sec.png" alt="" class="img-fluid" />
           </div>
         </div>
@@ -217,8 +228,7 @@
     </section>
 
     <section class="forget">
-      <div class="container"
-      data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
         <div class="row">
           <h2>Don’t Forget Your<br />Car’s Maintenance!</h2>
           <div class="colordiv my-5 col-lg-4 col-md-6 mx-auto">
@@ -233,24 +243,22 @@
     <section class="stop">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 offset-lg-1"
-          data-aos="fade-right">
+          <div class="col-lg-6 offset-lg-1" data-aos="fade-right">
             <img src="./assets/images/forget2.png" alt="" class="img-fluid" />
           </div>
-          <div class="col-lg-4"
-          data-aos="fade-left">
-            <p>
+          <div class="col-lg-4" data-aos="fade-left">
+            <p class="newParaSize">
               We pride ourselves on the importance of informing our customers on
               the necessary parts, maintenance and service that will help keep
               them in a well maintained car or truck. Bring it over to the best
               car maintenance station in Morgan Hill and we will minimize the
               risk of mechanical failure and costly repairs.
             </p>
-            <p>
+            <p class="newParaSize">
               Come to our Auto Repair Shop so we can assess how to better take
               care of your care and provide the maintenance it needs. 
             </p>
-            <p>
+            <p class="newParaSize">
               These are some important maintenance checks that we often perform
               to extend the life of your car:
             </p>
@@ -261,19 +269,69 @@
         </div>
       </div>
     </section>
-    <section class="lines">
-      <img src="./assets/images/line1.png" alt="" class="img-fluid mb-4" 
-      data-aos="zoom-in-down"/>
-      <img src="./assets/images/line2.png" alt="" class="img-fluid mb-4"
-      data-aos="zoom-in-down" />
-      <img src="./assets/images/line3.png" alt="" class="img-fluid mb-4"
-      data-aos="zoom-in-down" />
+    <section class="lines"
+    style="width: 100%; height: fit-content;">
+      <div
+      class="marquee"
+        style="
+        width: 100%;
+        display: flex; justify-content: start; gap: 2rem"
+       
+      >
+        <img
+          src="./assets/images/line1.png"
+          alt=""
+          class="marquee-track"
+        />
+         <img
+          src="./assets/images/line1.png"
+          alt=""
+          class="marquee-track"
+        />
+      </div>
+
+      <div
+        class="marquee"
+        style="
+        width: 100%;
+        display: flex; justify-content: end; gap: 2rem"
+       
+      >
+        <img
+          src="./assets/images/line2.png"
+          alt=""
+         class="marquee-track_2"
+        />
+         <img
+          src="./assets/images/line2.png"
+          alt=""
+         class="marquee-track_2"
+        />
+      </div>
+
+      <div
+       class="marquee"
+        style="
+        width: 100%;
+        display: flex; justify-content: start; gap: 2rem"
+       
+      >
+        <img
+          src="./assets/images/line3.png"
+          alt=""
+         class="marquee-track"
+        />
+         <img
+          src="./assets/images/line3.png"
+          alt=""
+         class="marquee-track"
+        />
+      </div>
     </section>
     <section class="map py-5">
-      <div class="container"
-      data-aos="zoom-in-up">
+      <div class="container">
         <div class="row">
-          <img src="./assets/images/map.png" alt="" class="img-fluid" />
+          <img src="./assets/images/map.png" alt="" class="img-fluid newHighMap"  />
         </div>
       </div>
     </section>
@@ -282,10 +340,11 @@
       <div class="container">
         <div class="row justify-content-center">
           <div
-            class="col-lg-11 mx-auto d-flex justify-content-center align-items-start flex-column mb-lg-2"
-          data-aos="fade-right" >
-            <h3
-           >What Our Clients Are Saying</h3>
+            class="col-lg-11 mx-auto d-flex justify-content-center 
+            align-items-start flex-column mb-lg-2"
+            data-aos="fade-right"
+          >
+            <h3>What Our Clients Are Saying</h3>
             <div class="rev-star d-flex gap-2 align-items-center">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -296,8 +355,10 @@
             </div>
           </div>
           <div class="row col-lg-11 mx-auto d-flex justify-content-around my-5">
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3"
-             data-aos="fade-up">
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex pb-3"
+              data-aos="fade-up"
+            >
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -315,9 +376,9 @@
                     class="img-fluid my-4"
                   />
                   <p class="mb-0">
-                    Great mechanic, 4pm on a Friday needed an emergency repair to a
-                    Cruise America trailer electric hookup. Stopped what he was
-                    doing to help get me back on the road for Father's Day!
+                    Great mechanic, 4pm on a Friday needed an emergency repair
+                    to a Cruise America trailer electric hookup. Stopped what he
+                    was doing to help get me back on the road for Father's Day!
                   </p>
                   <h4 class="rev-name mt-4">Greg Johnson</h4>
                   <p class="rev-sub my-2">June 14, 2024</p>
@@ -329,8 +390,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3"
-             data-aos="fade-down">
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex pb-3"
+              data-aos="fade-down"
+            >
               <div
                 class="rev-cards bg-rev-card p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -366,14 +429,16 @@
                   <p class="mb-0 mt-3">
                     Probably on the pricier side but recommend if you want
                     convenience and service. They have pickup and delivery
-                    service. Everyone is professional and friendly. Family own for
-                    decades. Highly recommend.
+                    service. Everyone is professional and friendly. Family own
+                    for decades. Highly recommend.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3"
-             data-aos="fade-up">
+            <div
+              class="col-lg-4 col-md-6 col-12 d-flex pb-3"
+              data-aos="fade-up"
+            >
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -391,8 +456,8 @@
                     class="img-fluid my-4"
                   />
                   <p class="mb-0">
-                    I absolutely recommend this service, they are very honest and
-                    they recommend to replace the parts that only need to be
+                    I absolutely recommend this service, they are very honest
+                    and they recommend to replace the parts that only need to be
                     replaced, the manager is very respectful.
                   </p>
                   <h4 class="rev-name mt-4">Lee Albert</h4>
@@ -410,22 +475,29 @@
       </div>
     </section>
 
-    <section>
+    <section class="redSection">
       <div class="container">
         <div class="row">
-          <div class="sidecar col">
+          <div class="sidecar col"
+            >
             <div class="row">
               <div
-                class="col-lg-6 d-flex flex-column align-items-center justify-content-center px-lg-4"
+                class="col-lg-6 d-flex flex-column 
+                align-items-center justify-content-center px-lg-4
+                "
               >
                 <h3 class="mb-5">
-                  <span>We are located at 16860 Monterey Rd. Suite A, Morgan Hill, CA 95037</span> - come visit our shop! We perform quality work with dedication to keeping your car running at the highest level of performance possible.
+                  
+                    We are located at 16860 Monterey Rd. Suite A, Morgan Hill,
+                    CA 95037
+                  - come visit our shop! We perform quality work with dedication
+                  to keeping your car running at the highest level of
+                  performance possible.
                 </h3>
 
                 <button class="req-btn">Request a FREE Estimate</button>
               </div>
-              <div class="col-lg-6 position-relative"
-              data-aos="fade-left">
+              <div class="col-lg-6 position-relative" data-aos="fade-left">
                 <img
                   src="./assets/images/sidecar.png"
                   alt=""
@@ -448,8 +520,12 @@
               class="img-fluid logo-img mb-5"
             />
             <h2 class="my-4">
-              We pride ourselves on the importance of informing our customers on the necessary parts, maintenance and service that will help keep them in a well maintained car or truck.<br />
-              Bring it over to the best car maintenance station in Morgan Hill and we will minimize the risk of mechanical failure and costly repairs.
+              We pride ourselves on the importance of informing our customers on
+              the necessary parts, maintenance and service that will help keep
+              them in a well maintained car or truck.<br />
+              Bring it over to the best car maintenance station in Morgan Hill
+              and we will minimize the risk of mechanical failure and costly
+              repairs.
             </h2>
 
             <div class="address mt-5">
@@ -482,7 +558,7 @@
               alt=""
               class="img-fluid my-5 w-75"
             />
-            <div class="col-12 d-flex gap-4">
+            <div class="col-12 d-flex gap-4 starter">
               <button class="white-sqr-btn d-flex align-items-center gap-2">
                 Call Us Now
                 <svg
@@ -568,9 +644,7 @@
                 </a>
               </div>
             </div>
-            <p class="text-center mt-5 text-white">
-              Email: info@epicautorepairs.com
-            </p>
+         
           </div>
           <div
             class="col-lg-6 px-lg-5 d-flex align-items-center justify-content-center"
@@ -581,33 +655,42 @@
               </h3>
               <div class="d-flex flex-column my-4">
                 <label for="">Name</label>
-                <input type="text" />
+                <input type="text"
+                class="inputCustom"
+                />
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Phone</label>
-                <input type="text" />
+                <input type="text"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Email</label>
-                <input type="email" />
+                <input type="email"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
-                <label for="">Message</label>
-                <textarea name="" rows="6" id=""></textarea>
+                <label for="" >Message</label>
+                <textarea name="" rows="6" id=""   class="inputCustom"></textarea>
               </div>
               <div class="d-flex align-items-center justify-content-center">
-                <button class="schedule-btn filled-red mx-auto">
-                  Submit
-                </button>
+                <button class="schedule-btn filled-red mx-auto">SCHEDULE AN APPOINTMENT</button>
               </div>
             </div>
           </div>
         </div>
+        <div class="lastFlik">
+            <p>Privacy Policy | Your Privacy Choices</p>
+            <div class="lastFlik_2"
+            style="gap: 2rem;">
+             <p>© 2025 ELEPHIN CLEANERS . All rights Reserved.</p>
+             <p style="color: #FF0C0C; font-weight: 600;">Web Design</p>
+             <p style="font-weight: bold;">BRANDED STRONG</p>
+            </div>
+          </div>
       </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
   </body>
 </html>

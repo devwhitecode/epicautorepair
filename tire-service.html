@@ -28,41 +28,57 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body>
     <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" id="menu-button"><span></span></label>
+    <label for="menu-toggle" id="menu-button">
+       <img src="./assets/images/hamburger.svg" alt="" />
+    </label>
     <nav id="menu" class="row">
       <div class="col-lg-5 d-lg-flex d-none">
-        <img src="./assets/images/menubg.png" alt="" class="img-fluid" />
+        <img src="./assets/images/grage.svg" alt="" class="img-fluid" />
       </div>
       <div
         class="col-lg-7 col-12 p-5 d-flex flex-column align-items-baseline justify-content-between"
       >
-        <img src="./assets/images/logo.png" alt="" class="img-fluid logo-img" />
+        <img src="./assets/images/logo.png" alt=""       class="img-fluid logo-img NewWdith" />
 
         <ul class="pb-5">
-          <li><a class="menu-item" href="./index.html">About Us</a></li>
+          <li><a  
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./index.html">About Us</a></li>
           <li>
-            <a class="menu-item" href="./service.html">Auto repair</a>
+            <a  
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./service.html">Auto repair</a>
           </li>
-          <li><a class="menu-item" href="./tesla.html">Tune-Ups</a></li>
-          <li><a class="menu-item active" href="./tire-service.html">Tire Service</a></li>
-          <li><a class="menu-item" href="./maintenance.html">Maintenance</a></li>
-          <li><a class="menu-item" href="./contact.html">More</a></li>
+          <li><a  
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tesla.html">Tune-Ups</a></li>
+          <li><a  
+            style="white-space: nowrap !important;"
+            class="menu-item active" href="./tire-service.html">Tire Service</a></li>
+          <li><a  
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./maintenance.html">Maintenance</a></li>
+          <li><a  
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./contact.html">More</a></li>
         </ul>
       </div>
     </nav>
 
     <div class="navbar-hero">
-      <div class="row position-fixed w-100 p-5 pb-0">
-        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100">
+      <div class="row position-fixed w-100 p-5 pb-0 " data-aos="fade-down">
+        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100 centered">
           <img
             src="./assets/images/logo.png"
             alt=""
-            class="img-fluid logo-img"
+                  class="img-fluid logo-img NewWdith"
           />
-          <div class="d-flex align-items-center pe-lg-5 pe-2">
+          <div class="ScheduleBtn d-flex align-items-center pe-lg-5 pe-2">
             <button class="schedule-btn">SCHEDULE AN APPOINTMENT</button>
           </div>
         </div>
@@ -72,14 +88,14 @@
     <section class="service_hero">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 offset-lg-1">
+          <div class="col-lg-5 offset-lg-1" data-aos="fade-up">
             <h3>TIRE<br />SERVICE</h3>
-            <p class="my-4">
+            <p class="my-4 newParaSize">
               Tires are the connection between your vehicle and the road, so they
               play a critical role in every drive. Poor tire maintenance can lead
               to premature wear, flat tires, or even blowouts.
             </p>
-            <p class="my-4">
+            <p class="my-4 newParaSize">
               Factors such as worn suspension parts and improper wheel alignment
               also affect tire wear and performance. We give you honest guidance
               and the service needed to keep your tires working as hard as you
@@ -97,7 +113,7 @@
               class="img-fluid my-5"
             />
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left">
             <img src="./assets/images/epic_auto_repair_1.png" alt="Epic Auto Repair hero" class="img-fluid" />
           </div>
         </div>
@@ -107,18 +123,18 @@
     <section class="service_check">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right">
             <img src="./assets/images/epicrepairicon.png" alt="Tire service icon" class="img-fluid" />
           </div>
           <div class="col-lg-5">
-            <h4 class="mb-4">Tire Care & Wheel Alignment</h4>
-            <p>
+            <h4 class="mb-4 newHeadSize">Tire Care & Wheel Alignment</h4>
+            <p class="newParaSize">
               Flat tires often result from punctures caused by nails, glass, or
               other debris. Driving far on a flat is dangerous and always avoid
               it unless it’s an emergency. Prompt repair increases the chance of
               salvaging the tire.
             </p>
-            <p>
+            <p class="newParaSize">
               Paying attention to warning signs and aligning the wheels
               regularly preserves tire life, improves handling, and keeps the
               ride smooth.
@@ -139,7 +155,7 @@
       </div>
     </section>
 
-    <section class="d-none d-lg-flex py-5 my-5">
+    <section class="d-none d-lg-flex py-5 my-5" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-12"><img src="./assets/images/epic_auto_repair_1.png" alt="Service highlight" class="img-fluid"></div>
@@ -150,25 +166,25 @@
     <section class="tire-alerts py-5">
       <div class="container">
         <div class="row align-items-center gy-5 gy-lg-0">
-          <div class="col-lg-6">
-            <h3 class="mb-4">Tire Safety Starts with Prevention</h3>
-            <p>
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="mb-4 newHeadSize">Tire Safety Starts with Prevention</h3>
+            <p class="newParaSize">
               Flat tires can happen from punctures, worn tread, or damaged
               sidewalls. When a tire is compromised, stop driving immediately
               and let our team inspect it. Prompt attention increases the chance
               we can repair it instead of replacing it.
             </p>
-            <p>
+            <p class="newParaSize">
               Regular wheel alignment checks and keeping your tires inflated to
               the correct pressure prevents uneven wear and keeps you confident
               on the road.
             </p>
-            <p class="mb-0">
+            <p class="mb-0 newParaSize">
               Trust our tire service to replace, rotate, and align so you stay
               safely on the pavement.
             </p>
           </div>
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-6 text-center" data-aos="fade-left">
             <img
               src="./assets/images/tire-alerts.png"
               alt="Tire service team working on wheel"
@@ -179,10 +195,10 @@
       </div>
     </section>
 
-    <section class="map py-5">
+    <section class="map py-5" data-aos="fade-up">
       <div class="container">
         <div class="row">
-          <img src="./assets/images/map.png" alt="" class="img-fluid" />
+          <img src="./assets/images/map.png" alt="" class="img-fluid newHighMap" />
         </div>
       </div>
     </section>
@@ -192,7 +208,7 @@
         <div class="row justify-content-center">
           <div
             class="col-lg-11 mx-auto d-flex justify-content-center align-items-start flex-column mb-lg-2"
-          >
+          data-aos="fade-up">
             <h3>What Our Clients Are Saying</h3>
             <div class="rev-star d-flex gap-2 align-items-center">
               <i class="fa-solid fa-star"></i>
@@ -204,7 +220,7 @@
             </div>
           </div>
           <div class="row col-lg-11 mx-auto d-flex justify-content-around my-5">
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-right">
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -236,7 +252,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="zoom-in">
               <div
                 class="rev-cards bg-rev-card p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -280,7 +296,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-left">
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -317,22 +333,29 @@
       </div>
     </section>
 
-    <section>
+     <section class="redSection">
       <div class="container">
         <div class="row">
-          <div class="sidecar col">
+          <div class="sidecar col"
+            >
             <div class="row">
               <div
-                class="col-lg-6 d-flex flex-column align-items-center justify-content-center px-lg-4"
+                class="col-lg-6 d-flex flex-column 
+                align-items-center justify-content-center px-lg-4
+                "
               >
                 <h3 class="mb-5">
-                  Come to our Auto Repair Shop so we can assess how to better
-                  take care of your care and provide the maintenance it needs.
+                  
+                    We are located at 16860 Monterey Rd. Suite A, Morgan Hill,
+                    CA 95037
+                  - come visit our shop! We perform quality work with dedication
+                  to keeping your car running at the highest level of
+                  performance possible.
                 </h3>
 
                 <button class="req-btn">Request a FREE Estimate</button>
               </div>
-              <div class="col-lg-6 position-relative">
+              <div class="col-lg-6 position-relative" data-aos="fade-left">
                 <img
                   src="./assets/images/sidecar.png"
                   alt=""
@@ -345,19 +368,22 @@
       </div>
     </section>
 
-    <footer>
+      <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 offset-lg-1">
+          <div class="col-lg-5 offset-lg-1" data-aos="fade-up">
             <img
               src="./assets/images/logo.png"
               alt=""
               class="img-fluid logo-img mb-5"
             />
             <h2 class="my-4">
-              We pride ourselves on informing our customers on the necessary<br />
-              <span>parts, maintenance and service</span> that keep their vehicles<br />
-              reliable.
+              We pride ourselves on the importance of informing our customers on
+              the necessary parts, maintenance and service that will help keep
+              them in a well maintained car or truck.<br />
+              Bring it over to the best car maintenance station in Morgan Hill
+              and we will minimize the risk of mechanical failure and costly
+              repairs.
             </h2>
 
             <div class="address mt-5">
@@ -390,7 +416,7 @@
               alt=""
               class="img-fluid my-5 w-75"
             />
-            <div class="col-12 d-flex gap-4">
+            <div class="col-12 d-flex gap-4 starter">
               <button class="white-sqr-btn d-flex align-items-center gap-2">
                 Call Us Now
                 <svg
@@ -476,42 +502,53 @@
                 </a>
               </div>
             </div>
-            <p class="text-center mt-5 text-white">
-              Email: info@epicautorepairs.com
-            </p>
+         
           </div>
           <div
             class="col-lg-6 px-lg-5 d-flex align-items-center justify-content-center"
-          >
+          data-aos="fade-left">
             <div class="form-div w-100">
               <h3 class="text-center">
                 Get a <span>FREE<br />Estimate Today!</span>
               </h3>
               <div class="d-flex flex-column my-4">
                 <label for="">Name</label>
-                <input type="text" />
+                <input type="text"
+                class="inputCustom"
+                />
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Phone</label>
-                <input type="text" />
+                <input type="text"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Email</label>
-                <input type="email" />
+                <input type="email"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
-                <label for="">Message</label>
-                <textarea name="" rows="6" id=""></textarea>
+                <label for="" >Message</label>
+                <textarea name="" rows="6" id=""   class="inputCustom"></textarea>
               </div>
               <div class="d-flex align-items-center justify-content-center">
-                <button class="schedule-btn filled-red mx-auto">
-                  Submit
-                </button>
+                <button class="schedule-btn filled-red mx-auto">SCHEDULE AN APPOINTMENT</button>
               </div>
             </div>
           </div>
         </div>
+        <div class="lastFlik">
+            <p>Privacy Policy | Your Privacy Choices</p>
+            <div class="lastFlik_2"
+            style="gap: 2rem;">
+             <p>© 2025 ELEPHIN CLEANERS . All rights Reserved.</p>
+             <p style="color: #FF0C0C; font-weight: 600;">Web Design</p>
+             <p style="font-weight: bold;">BRANDED STRONG</p>
+            </div>
+          </div>
       </div>
     </footer>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

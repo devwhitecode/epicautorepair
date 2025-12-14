@@ -3,6 +3,8 @@ body {
   padding: 0px;
   box-sizing: border-box;
   background-color: black;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 :root {
@@ -833,6 +835,8 @@ footer .white-btn {
   color: var(--Orange, #ff0c0c);
 }
 
+
+
 @media (max-width: 900px) {
   .stop h3 {
     font-size: 18px;
@@ -858,7 +862,7 @@ footer .white-btn {
   button {
     padding: 10px 15px;
   }
-
+ 
   .sidecar img {
     display: none;
   }
@@ -866,4 +870,146 @@ footer .white-btn {
   .hero-cli img {
     height: 50px;
   }
+}
+/* ///////////////////////////// ADJUSTMENTS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+.scaler{
+  transform: scale(1.2) !important;
+}
+
+.newHeadSize{
+   font-size: 2rem !important;
+}
+
+.newParaSize{
+  font-size: 1rem !important;
+}
+
+
+.marquee {
+  overflow: hidden !important;
+  white-space: nowrap !important;
+}
+
+.marquee-track {
+  display: inline-block !important;
+  will-change: transform !important;
+  animation: marquee 15s linear infinite !important;
+}
+
+.marquee-track_2 {
+  display: inline-block !important;
+  will-change: transform !important;
+  animation: marquee_2 15s linear infinite !important;
+}
+
+.lines{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.inputCustom{
+  border-radius: 0px !important;
+  background-color: transparent !important;
+  outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid #FF0C0C !important;
+  color: #ffffff;
+}
+
+.starter{
+  width: fit-content ;
+  white-space: nowrap;
+}
+
+.lastFlik, .lastFlik_2{
+  white-space: nowrap;
+  font-size: 12px;
+  padding: 0rem 6rem;
+  display: flex;
+justify-content: space-between;
+align-items: center;
+color: white;
+font-weight: 300;
+  font-family: Inter;
+}
+
+.lastFlik{
+  padding-top: 6rem;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+@keyframes marquee_2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+
+
+@media (max-width: 624px){
+
+  .newHeadSize{
+   font-size: 2.4rem !important;
+}
+
+.newParaSize{
+  font-size: 1.2rem !important;
+}
+
+  .ScheduleBtn{
+    display: none !important;
+  }
+.redSection{
+  padding: 0rem 1rem !important;
+}
+.sidecar{
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+}
+.sidecar h3{
+  font-size: 32px !important;
+}
+.NewWdith{
+  width: 180px !important;
+  height: auto !important;
+}
+.centered{
+  justify-content: center !important;
+}
+.newHighMap{
+  height: 40dvh !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  border-radius: 20px;
+}
+.starter{
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: start !important;
+  align-items: start !important;
+  gap: 1rem !important;
+}
+.lastFlik, .lastFlik_2{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 }

@@ -28,41 +28,54 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" id="menu-button"><span></span></label>
+    <label for="menu-toggle" id="menu-button">
+       <img src="./assets/images/hamburger.svg" alt="" />
+    </label>
     <nav id="menu" class="row">
       <div class="col-lg-5 d-lg-flex d-none">
-        <img src="./assets/images/menubg.png" alt="" class="img-fluid" />
+        <img src="./assets/images/grage.svg" alt="" class="img-fluid" />
       </div>
       <div
         class="col-lg-7 col-12 p-5 d-flex flex-column align-items-baseline justify-content-between"
       >
-        <img src="./assets/images/logo.png" alt="" class="img-fluid logo-img" />
+        <img src="./assets/images/logo.png" alt=""       class="img-fluid logo-img NewWdith" />
 
         <ul class="pb-5">
-          <li><a class="menu-item" href="./index.html">About Us</a></li>
+          <li><a
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./index.html">About Us</a></li>
           <li>
-            <a class="menu-item" href="./service.html">Auto repair</a>
+            <a
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./service.html">Auto repair</a>
           </li>
           <li><a class="menu-item active" href="./tesla.html">Tune-Ups</a></li>
-          <li><a class="menu-item" href="./tire-service.html">Tire Service</a></li>
-          <li><a class="menu-item" href="./maintenance.html">Maintenance</a></li>
-          <li><a class="menu-item" href="./contact.html">More</a></li>
+          <li><a
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./tire-service.html">Tire Service</a></li>
+          <li><a
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./maintenance.html">Maintenance</a></li>
+          <li><a
+            style="white-space: nowrap !important;"
+            class="menu-item" href="./contact.html">More</a></li>
         </ul>
       </div>
     </nav>
 
     <div class="navbar-hero">
       <div class="row position-fixed w-100 p-5 pb-0">
-        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100">
+        <div class="col-12 d-flex pt-3 pt-lg-0 justify-content-between w-100 centered">
           <img
             src="./assets/images/logo.png"
             alt=""
-            class="img-fluid logo-img"
+                  class="img-fluid logo-img NewWdith"
           />
-          <div class="d-flex align-items-center pe-lg-5 pe-2">
+          <div class="ScheduleBtn d-flex align-items-center pe-lg-5 pe-2">
             <button class="schedule-btn">SCHEDULE AN APPOINTMENT</button>
           </div>
         </div>
@@ -74,16 +87,17 @@
         <div class="row">
           <div
             class="d-flex col-lg-4 mx-auto align-items-center justify-content-center"
+            data-aos="fade-up"
           >
             <img src="./assets/images/footrev.png" alt="" class="img-fluid" />
           </div>
         </div>
         <div class="row">
-          <h1 class="mt-3">Tune-Up Service</h1>
+          <h1 class="mt-3" data-aos="fade-up">Tune-Up Service</h1>
           <div class="col-lg-8 mx-auto">
             <div class="hero-cli row align-items-center justify-content-center">
-              <div class="col-lg-4 row">
-                <p>
+              <div class="col-lg-4 row" data-aos="fade-up">
+                <p class="newParaSize">
                   Tune-ups and preventive maintenance keep your car dependable,
                   and our team tells you what actually needs to be replaced so you
                   save money without compromising performance.
@@ -91,7 +105,7 @@
               </div>
               <div
                 class="col-lg-8 hero-client gap-3 d-flex align-items-center justify-content-center"
-              >
+               data-aos="fade-up">
                 <div
                   class="btn-span d-flex align-items-center justify-content-center gap-5"
                 >
@@ -110,7 +124,7 @@
     <section class="ev">
       <div class="container">
         <div class="row">
-          <p class="col-lg-6 mx-auto">
+          <p class="col-lg-6 mx-auto" data-aos="fade-up">
             Many drivers or car owners do not understand the importance of
             preventative maintenance. Most people assume that if the car isn’t
             exhibiting some kind of failure, it’s working just fine, but tune-ups
@@ -123,14 +137,14 @@
     <section class="tesla3">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right">
             <img src="./assets/images/tesla3.png" alt="" class="img-fluid" />
           </div>
           <div
             class="col-lg-5 row flex-wrap align-items-center justify-content-between"
-          >
+          data-aos="fade-up">
             <div class="col-lg-6 my-3 mx-auto">
-              <div class="comp-div">
+              <div class="comp-div" data-aos="fade-up">
                 <h4 class="mb-3">Comprehensive Diagnostics</h4>
                 <p>
                   Diagnose “Check Engine” lights and monitor every system so we
@@ -139,7 +153,7 @@
               </div>
             </div>
             <div class="col-lg-6 my-3 mx-auto">
-              <div class="comp-div2">
+              <div class="comp-div2" data-aos="fade-down">
                 <h4>Brake Repair & Inspection</h4>
                 <p>
                   Prevent brake issues with honest evaluations and quality
@@ -147,7 +161,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-6 my-3 mx-auto">
+            <div class="col-lg-6 my-3 mx-auto" data-aos="fade-up">
               <div class="comp-div2">
                 <h4>Oil Changes & Fluid Flushes</h4>
                 <p>
@@ -156,7 +170,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-6 my-3 mx-auto">
+            <div class="col-lg-6 my-3 mx-auto" data-aos="fade-down">
               <div class="comp-div2">
                 <h4>Transmission & Wheel Alignment</h4>
                 <p>
@@ -165,7 +179,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-6 my-3 mx-auto">
+            <div class="col-lg-6 my-3 mx-auto" data-aos="zoom-in">
               <div class="comp-div2">
                 <h4>Preventive Maintenance</h4>
                 <p>
@@ -182,12 +196,12 @@
     <section class="choose">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-5 offset-lg-1">
-            <h3>
+          <div class="col-lg-5 offset-lg-1"  data-aos="fade-up">
+            <h3 class="newHeadSize">
               Why Choose<br />
               <span>EPIC AUTO REPAIR</span>
             </h3>
-            <p class="my-5">
+            <p class="my-5 newParaSize">
               We do it all at Epic Auto Repair. If you’re looking for an honest
               mechanic shop that performs quality work, come to our shop and let
               us look at your vehicle. We’ll give you an honest evaluation of
@@ -199,7 +213,7 @@
               SCHEDULE AN APPOINTMENT
             </button>
           </div>
-          <div class="col-lg-5 my-4 my-lg-0">
+          <div class="col-lg-5 my-4 my-lg-0" data-aos="fade-left">
             <img src="./assets/images/tesla4.png" alt="" class="img-fluid" />
           </div>
         </div>
@@ -208,7 +222,7 @@
 
     <section class="process">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up">
                 <h2>OUR<br/>PROCESS</h2>
                 <p class="text-center mt-3">
                   Preventive maintenance allows you peace of mind and the relief of
@@ -224,7 +238,7 @@
         <div class="row justify-content-center">
           <div
             class="col-lg-11 mx-auto d-flex justify-content-center align-items-start flex-column mb-lg-2"
-          >
+               data-aos="fade-up">
             <h3>What Our Clients Are Saying</h3>
             <div class="rev-star d-flex gap-2 align-items-center">
               <i class="fa-solid fa-star"></i>
@@ -236,7 +250,7 @@
             </div>
           </div>
           <div class="row col-lg-11 mx-auto d-flex justify-content-around my-5">
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-down">
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -268,7 +282,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-up">
               <div
                 class="rev-cards bg-rev-card p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -310,7 +324,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3">
+            <div class="col-lg-4 col-md-6 col-12 d-flex pb-3" data-aos="fade-down">
               <div
                 class="rev-cards p-lg-5 p-3 d-flex align-items-end h-100 w-100"
               >
@@ -350,24 +364,29 @@
       </div>
     </section>
 
-    <section>
+   <section class="redSection">
       <div class="container">
         <div class="row">
-          <div class="sidecar col">
+          <div class="sidecar col"
+            >
             <div class="row">
               <div
-                class="col-lg-6 d-flex flex-column align-items-center justify-content-center px-lg-4"
+                class="col-lg-6 d-flex flex-column 
+                align-items-center justify-content-center px-lg-4
+                "
               >
                 <h3 class="mb-5">
-                  <span>We are located at 16860 Monterey Rd. Suite A, Morgan Hill, CA 95037</span><br />
-                  come visit our shop! We perform quality work with dedication
-                  to keeping your car running at the highest level of performance
-                  possible.
+                  
+                    We are located at 16860 Monterey Rd. Suite A, Morgan Hill,
+                    CA 95037
+                  - come visit our shop! We perform quality work with dedication
+                  to keeping your car running at the highest level of
+                  performance possible.
                 </h3>
 
                 <button class="req-btn">Request a FREE Estimate</button>
               </div>
-              <div class="col-lg-6 position-relative">
+              <div class="col-lg-6 position-relative" data-aos="fade-left">
                 <img
                   src="./assets/images/sidecar.png"
                   alt=""
@@ -380,19 +399,22 @@
       </div>
     </section>
 
-    <footer>
+     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 offset-lg-1">
+          <div class="col-lg-5 offset-lg-1" data-aos="fade-up">
             <img
               src="./assets/images/logo.png"
               alt=""
               class="img-fluid logo-img mb-5"
             />
             <h2 class="my-4">
-              We pride ourselves on informing our customers on the necessary<br />
-              <span>parts, maintenance and service</span> that keep their vehicles<br />
-              reliable.
+              We pride ourselves on the importance of informing our customers on
+              the necessary parts, maintenance and service that will help keep
+              them in a well maintained car or truck.<br />
+              Bring it over to the best car maintenance station in Morgan Hill
+              and we will minimize the risk of mechanical failure and costly
+              repairs.
             </h2>
 
             <div class="address mt-5">
@@ -425,7 +447,7 @@
               alt=""
               class="img-fluid my-5 w-75"
             />
-            <div class="col-12 d-flex gap-4">
+            <div class="col-12 d-flex gap-4 starter">
               <button class="white-sqr-btn d-flex align-items-center gap-2">
                 Call Us Now
                 <svg
@@ -511,42 +533,53 @@
                 </a>
               </div>
             </div>
-            <p class="text-center mt-5 text-white">
-              Email: info@epicautorepairs.com
-            </p>
+         
           </div>
           <div
             class="col-lg-6 px-lg-5 d-flex align-items-center justify-content-center"
-          >
+          data-aos="fade-left">
             <div class="form-div w-100">
               <h3 class="text-center">
                 Get a <span>FREE<br />Estimate Today!</span>
               </h3>
               <div class="d-flex flex-column my-4">
                 <label for="">Name</label>
-                <input type="text" />
+                <input type="text"
+                class="inputCustom"
+                />
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Phone</label>
-                <input type="text" />
+                <input type="text"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
                 <label for="">Email</label>
-                <input type="email" />
+                <input type="email"   class="inputCustom"/>
               </div>
               <div class="d-flex flex-column my-4">
-                <label for="">Message</label>
-                <textarea name="" rows="6" id=""></textarea>
+                <label for="" >Message</label>
+                <textarea name="" rows="6" id=""   class="inputCustom"></textarea>
               </div>
               <div class="d-flex align-items-center justify-content-center">
-                <button class="schedule-btn filled-red mx-auto">
-                  Submit
-                </button>
+                <button class="schedule-btn filled-red mx-auto">SCHEDULE AN APPOINTMENT</button>
               </div>
             </div>
           </div>
         </div>
+        <div class="lastFlik">
+            <p>Privacy Policy | Your Privacy Choices</p>
+            <div class="lastFlik_2"
+            style="gap: 2rem;">
+             <p>© 2025 ELEPHIN CLEANERS . All rights Reserved.</p>
+             <p style="color: #FF0C0C; font-weight: 600;">Web Design</p>
+             <p style="font-weight: bold;">BRANDED STRONG</p>
+            </div>
+          </div>
       </div>
     </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
